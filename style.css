@@ -55,6 +55,38 @@ img{
     color: #fff;
     font-size: 2rem;
     display: inline;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 1rem;
 }
+@media screen and (max-width: 480px) {
+    .choices{
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .choice-img{
+        width: 50%;
+    }
+    .score-board{
+        flex-direction: row;
+        align-items: center;
+    }
+    .score{
+        margin-bottom: 20px;
+    }
+    .msg-contain{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 24px;
+    }
+
+
+    
+}
+    
+  
+  
