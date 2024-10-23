@@ -1,1 +1,2 @@
-# rock-paper-scissor
+# git-experiment
+git tutorial and practice
